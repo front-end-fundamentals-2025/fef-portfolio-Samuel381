@@ -1,0 +1,34 @@
+a:hover{
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+@keyframes move {
+    25%{
+        transform:scale(1.2);
+    }
+   40%{
+    transform: rotate(-20deg) scale(1.2);
+   }
+   50%{
+    transform: rotate(20deg) scale(1.2);
+
+   }
+   60%{
+    transform: rotate(-20deg) scale(1.2);
+   }
+   70%{
+    transform: rotate(20deg) scale(1.2);
+    
+   }
+   80%{
+    transform: rotate(-20deg) scale(1.2);
+   }
+   90%{
+    transform: rotate(20deg) scale(1.2);
+    
+   }
+   100%{
+    transform: scale(1);
+   }
+}   
