@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let entername = inputElement.value.trim(); // Trim whitespace
 
             if (entername !== "") {
-                divElement.innerText = "Thanks for leaving your information, " + entername;
+                divElement.innerText = "Thanks for leaving your information," + entername;
             } else {
                 divElement.innerText = "...";
             }
